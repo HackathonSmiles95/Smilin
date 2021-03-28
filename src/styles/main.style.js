@@ -20,7 +20,7 @@ export default {
     padding: '1%',
   },
   menuLink:{ 
-    fontFamily: "system-ui",
+    fontFamily: "Raleway",
     fontStyle: "normal",
     fontWeight: "600",
     fontSize: "15px",
@@ -31,7 +31,7 @@ export default {
     margin: "15px",
   },
   menuAcesso:{
-    fontFamily: "system-ui",
+    fontFamily: "Raleway",
     fontStyle: "normal",
     fontWeight: "600",
     fontSize: "15px",
