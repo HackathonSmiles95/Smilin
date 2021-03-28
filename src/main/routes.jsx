@@ -2,6 +2,7 @@
 import React from 'react';
 import { Switch, Route } from "react-router";
 
+import Home from "../components/pages/Home";
 import About from "../components/pages/About";
 import Help from "../components/pages/Help";
 import Partner from "../components/pages/Partner";
@@ -11,6 +12,7 @@ import Register from "../components/pages/Register";
 export default (props) => (
   <div className="">
     <Switch>
+      <Route path="/home" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/login" component={Login} />
       <Route path="/Help" component={Help} />
