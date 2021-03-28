@@ -5,9 +5,10 @@ import MenuItem from "./menuItem";
 
 export default (props) => (
   <ul className="">
-    <MenuItem path="" label="Quem Somos?" icon="" />
-    <MenuItem path="" label="Ajuda" icon="" />
-    <MenuItem path="" label="Parceiros" icon="" />
-    <MenuItem path="" label="Cadastre-se" icon="" />
+    <MenuItem path="#"/>
+    <MenuItem path="#about" label="Quem Somos?" icon="" />
+    <MenuItem path="#help" label="Ajuda" icon="" />
+    <MenuItem path="#partner" label="Parceiros" icon="" />
+    <MenuItem path="#register" label="Cadastre-se" icon="" />
   </ul>
 )
