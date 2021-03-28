@@ -4,17 +4,32 @@ export default {
     heightMax: "100vh",
   },
   container: {
+    height: "100%",
+    width: "100%",
+    marginTop: "0",
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "colunm",
     justifyContent: "space-between",
   },
+  containerTop: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%"
+
+  },
   contentLeft: {
-    width: "40%",
+    display: "flex",
+    flexDirection: "colunm",
+    width: "60%",
     marginTop: "0",
     backgroundColor: "#FFFFFF"
   },
   contentRight: {
-    width: "60%",
+    display: "flex",
+    flexDirection: "colunm",
+    justifyContent: "center",
+    width: "40%",
     marginTop: "0",
     backgroundColor: "#FFC107"
   },

@@ -19,8 +19,8 @@ export default (props) => (
       />
     </div>
     <div style={StyleContents.contentRight}>
+      <div style={StyleContents.containerTop}>
       <h1> Acesse sua conta: </h1>
-      <div>
         <Input
           style={StyleElements.input40}
           type="email"

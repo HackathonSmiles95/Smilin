@@ -6,7 +6,7 @@ import logo from "../../../assets/logo.png"
 
 
 export default (props) => (
-  <div style={StyleMain}>
+  <div style={StyleMain.main}>
     <i />
     <nav id="menu">
       <ul style={StyleMain.menuUl}>
