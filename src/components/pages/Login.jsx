@@ -18,7 +18,7 @@ export default (props) => (
       <Input style={StyleElements.input40} type="password" name="email" placeholder="email" />
       <Label style={props} text="Esqueceu a senha? " />
 
-      <Button label="Entrar" />
+      <Button style={StyleElements.button} label="Entrar" />
 
       <Accounts />
       <Label style={props} text="Ainda não tem cadastro?" />
