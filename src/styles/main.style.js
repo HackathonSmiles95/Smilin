@@ -1,15 +1,48 @@
 export default {
-  bigblue: {
-    width: "300px",
-    margin: "30px auto",
-    backgroundColor: "#44014C",
-    minHeight: "200px",
-    boxSizing: "border-box",
+  menuUl: {
+    margin: "0px",
+    backgroundColor: "#ff5a00",
+    position: "absolute",
+    width: '100%',
+    left: "0px",
+    top: "0px",
+  },
+  menuLi:{
+    display: "inline",
+  },
+  menuContainer:{
+    position: "relative",
+    height: '100%',
+    margin: "0 auto",
+    maxWidth: "1280px",
+    textAlign: "right",
+    width: '60%',
+    padding: '1%',
+  },
+  menuLink:{ 
+    fontFamily: "system-ui",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "15px",
+    lineHeight: "29px",    
+    color: '#FFFFFF',
     textDecoration: "none",
+    display: "inline",
+    margin: "15px",
   },
-  content: {
-    width: "100hv",
-    header: "100%",
-    backgroundColor: "#FFC107",
-  },
-};
+  menuAcesso:{
+    fontFamily: "system-ui",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "15px",
+    lineHeight: "29px",    
+    color: '#FFFFFF',
+    textDecoration: "none",
+    display: "inline",
+    position: "absolute",
+    width: '10%',
+    border: "1px solid #FFFFFF",
+    boxSizing: "border-box",
+    textAlign: "center",
+  }
+}
