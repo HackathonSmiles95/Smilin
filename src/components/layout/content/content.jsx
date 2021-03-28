@@ -6,7 +6,7 @@ import React from "react";
 export default (props) => {
   const size = props.size;
   const color = props.color;
-  const image = props.image
+  const image = props.image;
 
-  return <section style={StyleMain.content} >{props.children}</section>;
+  return <section style={StyleMain.content}>{props.children}</section>;
 };

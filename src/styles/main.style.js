@@ -6,10 +6,5 @@ export default {
     minHeight: "200px",
     boxSizing: "border-box",
     textDecoration: "none",
-  },
-  content: {
-    width: "100hv",
-    header: "100%",
-    backgroundColor: "#FFC107",
-  },
+  }
 };

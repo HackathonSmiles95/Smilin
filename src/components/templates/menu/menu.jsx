@@ -1,10 +1,9 @@
-import "./menu.css";
 import React from "react";
 import MenuItem from "./menuItem";
 import StyleMain from "../../../styles/main.style";
 
 export default (props) => (
-  <ul style>
+  <ul style={props.d}>
     <MenuItem
       path="#about"
       label="Quem Somos?"
