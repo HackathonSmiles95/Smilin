@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import MenuItem from "./menuItem";
 import StyleMain from "../../../styles/main.style";
@@ -13,15 +14,10 @@ export default (props) => (
           styles={StyleMain.menuLi}
           stylesLink={StyleMain.menuLink}
         />
-        <MenuItem path="#help" label="Ajuda" icon="" styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}/>
-        <MenuItem path="#partner" label="Parceiros" icon="" styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}  />
-        <MenuItem path="#register" label="Cadastre-se" icon=""  styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}/>
-        <li style={StyleMain.menuLi}>
-          <a href="#" style={StyleMain.menuAcesso} >
-            {/* <i className={props.icon}></i> {props.label} */}
-            Acesse
-          </a>
-        </li>
+        <MenuItem path="#help" label="Ajuda" styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}/>
+        <MenuItem path="#partner" label="Parceiros"  styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}  />
+        <MenuItem path="#register" label="Cadastre-se"  styles={StyleMain.menuLi}  stylesLink={StyleMain.menuLink}/>
+        <MenuItem path="#login" label="Acesso" styles={StyleMain.menuLi} stylesLink={StyleMain.menuAcesso}/>
       </div>
 
     </ul>
