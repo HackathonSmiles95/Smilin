@@ -1,5 +1,5 @@
 import React from "react";
 
 export default (props) => (
-  <label style={props.style} > {props.text} </label>
+  <h1 style={props.style}> {props.title} </h1>
 )

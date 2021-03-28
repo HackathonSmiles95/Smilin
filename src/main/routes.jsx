@@ -12,6 +12,10 @@ export default (props) => (
   <div className="">
     <Switch>
       <Route path="/about" component={About} />
+      <Route path="/login" component={Login} />
+      <Route path="/Help" component={Help} />
+      <Route path="/partner" component={Partner} />
+      <Route path="/register" component={Register} />
       <Route from="*" to="/" />
     </Switch>
   </div>
