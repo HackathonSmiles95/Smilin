@@ -2,6 +2,7 @@ import "./menu.css";
 import React from "react";
 import MenuTree from "./menuTree";
 import MenuItem from "./menuItem";
+import StyleMain from "../../../styles/main.style"
 
 export default (props) => (
   <ul className="">
