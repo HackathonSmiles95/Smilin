@@ -2,10 +2,10 @@ import "./card.css";
 import React from "react";
 
 export default (props) => {
-  <div className="">
-    <div className="">
-      <h1>TestCard</h1>
+  <div style={props.card}>
+    <div style={props.cardContent}>
+      {props.children}
     </div>
-    <p className="">Text Card</p>
+    <p style={props.cardText}>{props.label}</p>
   </div>
 }

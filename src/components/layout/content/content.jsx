@@ -8,5 +8,5 @@ export default (props) => {
   const color = props.color;
   const image = props.image
 
-  return <section className={`content color`} style={StyleMain.content}>{props.children}</section>;
+  return <section style={StyleMain.content} >{props.children}</section>;
 };
