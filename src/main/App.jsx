@@ -1,4 +1,3 @@
-import "./app.css";
 import { HashRouter } from "react-router-dom";
 
 import Content from "../components/layout/content/content";
