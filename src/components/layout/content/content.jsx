@@ -1,4 +1,5 @@
 import "../../../main/app.css";
+import StyleMain from "../../../styles/main.style";
 
 import React from "react";
 
@@ -7,5 +8,5 @@ export default (props) => {
   const color = props.color;
   const image = props.image
 
-  return <section className={`content color`}>{props.children}</section>;
+  return <section className={`content color`} style={StyleMain.content}>{props.children}</section>;
 };
