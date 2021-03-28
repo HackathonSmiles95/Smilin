@@ -15,14 +15,32 @@ export default {
   menuLi:{
     display: "inline",
   },
+  menuLogoLi:{
+    display: "flex",
+    float: "left",
+  },
+  logo:{
+    width: "100px",
+  },
+  menuContainerLogo:{
+    position: "relative",
+    height: '100%',
+    margin: "0 auto",
+    maxWidth: "1280px",
+    textAlign: "right",
+    width: '65%',
+  },
   menuContainer:{
     position: "relative",
     height: '100%',
     margin: "0 auto",
     maxWidth: "1280px",
     textAlign: "right",
-    width: '60%',
+    width: '65%',
     padding: '1%',
+  },
+  menuLogo:{
+    textAlign: "left",
   },
   menuLink:{ 
     fontFamily: "Raleway",

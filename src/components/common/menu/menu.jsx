@@ -2,12 +2,22 @@
 import React from "react";
 import MenuItem from "./menuItem";
 import StyleMain from "../../../styles/main.style";
+import logo from "../../../assets/logo.png"
+
 
 export default (props) => (
   <div>
     <i />
     <nav id="menu">
       <ul style={StyleMain.menuUl}>
+       
+        <div style={StyleMain.menuContainerLogo}>
+          <li style={StyleMain.menuLogoLi}>
+            <a href={"#home"} >
+              <img src={logo} alt="Logo" style={StyleMain.logo}/>
+            </a>
+          </li>
+        </div>
         <div style={StyleMain.menuContainer}>
           <MenuItem
             path="#about"
