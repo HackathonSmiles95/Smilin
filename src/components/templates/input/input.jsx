@@ -6,5 +6,6 @@ export default (props) => (
     name={props.name}
     type={props.type}
     style={props.style}
+    placeholder={props.placeholder}
   />
 );
