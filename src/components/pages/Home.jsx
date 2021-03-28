@@ -1,10 +1,17 @@
 import React from "react";
-import Button from "../templates/button/button";
-import Title from "../templates/title/title";
+import Button from "../common/button/button";
+import Title from "../common/title/title";
+import Card from "../common/cards/card";
 
 export default (props) => (
-  <section style={props} >
-    <Title text="Aprenda tudo sobre milhas, acumule ........" />
-    <Button label="" />
+  <section style={props}>
+    <div>
+      <Title title="Aprenda tudo sobre MILHAS, acumule ........" />
+      <Button label="Aprenda Agora" />
+      <Button label="Acessar" />
+    </div>
+    <div>
+      <Card> Card </Card>
+    </div>
   </section>
-)
+);

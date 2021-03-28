@@ -1,10 +1,10 @@
 import React from "react";
 
-export default (props) => {
-  <div style={props.card}>
+export default (props) => (
+  <section style={props.card}>
     <div style={props.cardContent}>
       {props.children}
     </div>
     <p style={props.cardText}>{props.label}</p>
-  </div>
-}
+  </section>
+)

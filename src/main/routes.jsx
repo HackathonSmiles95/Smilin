@@ -8,11 +8,13 @@ import Help from "../components/pages/Help";
 import Partner from "../components/pages/Partner";
 import Login from "../components/pages/Login";
 import Register from "../components/pages/Register";
+import Dashboard from "../components/pages/Dashboard";
 
 export default (props) => (
   <div className="">
     <Switch>
       <Route path="/home" component={Home} />
+      <Route path="/dashborad" component={Dashboard} />
       <Route path="/about" component={About} />
       <Route path="/login" component={Login} />
       <Route path="/Help" component={Help} />

@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from "../templates/cards/card";
+import Card from "../common/cards/card";
 
 export default props => (
   <section style={props.s} >

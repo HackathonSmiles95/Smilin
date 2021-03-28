@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "../templates/input/input";
-import Button from "../templates/button/button";
-import Label from "../templates/label/label";
+import Input from "../common/input/input";
+import Button from "../common/button/button";
+import Label from "../common/label/label";
 
 export default (props) => (
   <section style={props.s}>
