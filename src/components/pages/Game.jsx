@@ -5,4 +5,4 @@ export default (props) => (
     <div style={props}></div>
     <div style={props}></div>
   </section>
-);
+)

@@ -1,7 +1,7 @@
 import { HashRouter } from "react-router-dom";
 
 import Content from "../components/layout/content/content";
-import Menu from "../components/templates/menu/menu";
+import Menu from "../components/common/menu/menu";
 import Routes from "./routes";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
           <Menu />
           <Content>
             <Routes />
-          </Content> 
+          </Content>
         </header>
       </div>
     </HashRouter>
