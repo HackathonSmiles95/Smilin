@@ -1,4 +1,7 @@
 import React from "react";
+
+import StyleElements from "../../styles/elements.style";
+
 import Input from "../common/input/input";
 import Button from "../common/button/button";
 import Label from "../common/label/label";
@@ -11,8 +14,8 @@ export default (props) => (
       <h1> Acesse sua conta: </h1>
     </div>
     <div>
-      <Input style={props} type="email" name="email" placeholder="email" />
-      <Input style={props} type="password" name="email" placeholder="email" />
+      <Input style={StyleElements.input40} type="email" name="email" placeholder="email" />
+      <Input style={StyleElements.input40} type="password" name="email" placeholder="email" />
       <Label style={props} text="Esqueceu a senha? " />
 
       <Button label="Entrar" />
