@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default props => (
-  <div>CHegueeiii</div>
+  <div className="" >CHegueeiii</div>
 )

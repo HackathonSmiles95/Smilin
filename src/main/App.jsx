@@ -1,7 +1,9 @@
 import "./app.css";
-import Menu from "../components/templates/menu/menu";
-import Content from "../components/layout/content/content";
 import { HashRouter } from "react-router-dom";
+
+import Content from "../components/layout/content/content";
+import Menu from "../components/templates/menu/menu";
+import Routes from "./routes";
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Menu />
-          <Content />
+          <Content>
+            <Routes />
+          </Content>
         </header>
       </div>
     </HashRouter>
