@@ -1,11 +1,16 @@
 export default {
   menuUl: {
     margin: "0px",
-    backgroundColor: "#ff5a00",
-    position: "absolute",
-    width: '100%',
+    backgroundColor: "rgb(255, 90, 0)",
     left: "0px",
     top: "0px",
+    marginRight: "auto",
+    marginLeft: "auto",
+    paddingRight: "10px",
+    paddingLeft: "10px",
+  },
+  menuBody:{
+    margin: "0",
   },
   menuLi:{
     display: "inline",

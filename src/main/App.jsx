@@ -13,7 +13,7 @@ function App() {
           <Menu />
           <Content>
             <Routes />
-          </Content>
+          </Content> 
         </header>
       </div>
     </HashRouter>
