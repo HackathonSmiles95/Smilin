@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "../templates/input/input";
-import Button from "../templates/button/button";
-import Label from "../templates/label/label";
+import Input from "../common/input/input";
+import Button from "../common/button/button";
+import Label from "../common/label/label";
 import StyleRegister from "../../styles/Register.style";
 
 export default (props) => (
@@ -48,7 +48,7 @@ export default (props) => (
         style={StyleRegister.inputCadastro55}
         id="cep"
         name="cep"
-        type="number"
+        type="text"
         placeholder="CEP"
       />
       <Input
@@ -93,14 +93,14 @@ export default (props) => (
         type="password"
         placeholder="Confirmação a senha"
       />
-      <Input style={props} id="check" type="checkbox" />
-      <Label style={props} text="Li e concordo com os termos e regulamento" />
-
-      <Button label="enviar" />
       <div>
-        <span> Ou entre com: </span>
-        <Button label="google" />
-        <Button label="smiles" />
+        <div style={StyleRegister.containerButton}>
+          <Button label="Cadastrar" style={StyleRegister.registerButton}/>
+        </div>
+        <div style={StyleRegister.containerCheck}>
+          <Input style={props} id="check" type="checkbox" />
+          <Label style={props} text="Li e concordo com os termos e regulamento" />
+        </div>
       </div>
     </form>
   </section>
