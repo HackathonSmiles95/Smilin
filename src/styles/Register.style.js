@@ -2,15 +2,13 @@ export default {
   information: {
     float: "left",
     width: '60%',
-    // background: "#9FC",
     display: "inline",    
-    // backgroundImage: 'url(assets/InforTelaCadastroAviao.png)',
   },
   container:{
     margin: "0px 0px 0px 0px",
   },
   containerInfor:{
-    // marginBottom:'100%',
+
   },
   textInfor: {
     textAlign: "center",

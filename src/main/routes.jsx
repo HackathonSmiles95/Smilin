@@ -20,7 +20,7 @@ export default (props) => (
       <Route path="/Help" component={Help} />
       <Route path="/partner" component={Partner} />
       <Route path="/register" component={Register} />
-      <Route from="*" to="/" />
+      <Route from="*" to="/home" />
     </Switch>
   </div>
 )

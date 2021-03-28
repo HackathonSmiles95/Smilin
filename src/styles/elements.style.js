@@ -65,4 +65,27 @@ export default {
     boxSizing: "border-box",
     marginLeft: "25px",
   },
+
+  button:{
+    backgroundColor: "#FF5A00", /* Green */
+    border: "none",
+    color: "white",
+    padding: "15px 32px",
+    textAlign: "center",
+    textDecoration: "none",
+    display: "inline-block",
+    fontSize: "16px",
+    borderRadius: "10px",
+   
+  },
+  containerButton:{
+    textAlign: "center",
+    marginTop: "50px",
+  },
+  containerCheck:{
+    textAlign: "center",
+    marginTop: "10px",
+    marginBottom: "50px",
+  }
+
 }
