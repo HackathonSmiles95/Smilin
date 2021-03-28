@@ -78,6 +78,20 @@ export default {
     borderRadius: "10px",
    
   },
+  buttonBlank:{
+    backgroundColor: "#FFFF", /* Green */
+    border: "none",
+    padding: "10px 25px",
+    textAlign: "center",
+    textDecoration: "none",
+    display: "inline-block",
+    fontSize: "16px",
+    border: "solid 1px #00000",
+    borderRadius: "10px",
+    marginTop: "0",
+    margin: "2px"
+   
+  },
   containerButton:{
     textAlign: "center",
     marginTop: "50px",
@@ -86,6 +100,49 @@ export default {
     textAlign: "center",
     marginTop: "10px",
     marginBottom: "50px",
+  },
+  titleBlank: {
+    color: "#FFFFFF",
+    fontSize: "2rem",
+    width: "65%",
+    textAlign: "center",
+  },
+  titleOrange: {
+    color: "#FF5A00",
+    fontSize: "2rem",
+  },
+  labelBlank: {
+    color: "#FFFFFF",
+    fontSize: "1rem",
+  },
+  labelOrange: {
+    color: "#FF5A00",
+    fontSize: "1rem",
+  },
+  span: {
+    color: "blue",
+    textDecoration: "underline",
+  },
+  span2: {
+    fontSize: ".8rem",
+    marginTop: "-15px"
+  },
+  smiles: {
+    position: "absolute",
+    width: "80px",
+    height: "80px",
+    borderRadius: "30px",
+    right: "0",
+    bottom: "0",
+    zIndex: "20",
+    border: "solid 2px #FFC107",
+    borderRadius: "100%",
+    lineHeight: "2.6em",
+    textAlign: "center",
+    marginRight: "20px",
+    marginBottom: "20px",
+  },
+  image1: {
+    marginLeft: "auto"
   }
-
 }

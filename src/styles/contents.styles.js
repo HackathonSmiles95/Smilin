@@ -3,34 +3,45 @@ export default {
     widthMax: "100vw",
     heightMax: "100vh",
   },
-  container: {
-    height: "100%",
+  container:{
+    margin: "0px 0px 0px 0px",
     width: "100%",
-    marginTop: "0",
+    float: "left",
     display: "flex",
-    flexDirection: "colunm",
     justifyContent: "space-between",
+    marginTop: "-11px"
+  },
+  containerCenter: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
+
   },
   containerTop: {
     display: "flex",
     flexDirection: "column",
+    justifyContent: "space-around",
     alignItems: "center",
-    width: "100%"
-
+    width: "100%",
+    height: "60%",
+    marginTop: "20px"
   },
   contentLeft: {
     display: "flex",
-    flexDirection: "colunm",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
     width: "60%",
+    height: "100vh",
     marginTop: "0",
-    backgroundColor: "#FFFFFF"
+    backgroundColor: "#FFC107",
   },
   contentRight: {
     display: "flex",
-    flexDirection: "colunm",
+    flexDirection: "column",
     justifyContent: "center",
     width: "40%",
     marginTop: "0",
-    backgroundColor: "#FFC107"
+    backgroundColor: "#FFFFFF",
   },
-}
+};

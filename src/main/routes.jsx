@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import { Switch, Route } from "react-router";
 
 import Home from "../components/pages/Home";
@@ -11,16 +10,14 @@ import Register from "../components/pages/Register";
 import Dashboard from "../components/pages/Dashboard";
 
 export default (props) => (
-  <div className="">
-    <Switch>
-      <Route path="/home" component={Home} />
-      <Route path="/dashborad" component={Dashboard} />
-      <Route path="/about" component={About} />
-      <Route path="/login" component={Login} />
-      <Route path="/Help" component={Help} />
-      <Route path="/partner" component={Partner} />
-      <Route path="/register" component={Register} />
-      <Route from="*" to="/home" />
-    </Switch>
-  </div>
-)
+  <Switch>
+    <Route path="/home" component={Home} />
+    <Route path="/dashborad" component={Dashboard} />
+    <Route path="/about" component={About} />
+    <Route path="/login" component={Login} />
+    <Route path="/Help" component={Help} />
+    <Route path="/partner" component={Partner} />
+    <Route path="/register" component={Register} />
+    <Route from="*" to="/home" />
+  </Switch>
+);
