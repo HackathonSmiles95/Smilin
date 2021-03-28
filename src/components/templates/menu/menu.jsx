@@ -1,8 +1,9 @@
 import React from "react";
+import MenuTree from "./menuTree";
+import MenuItem from "./menuItem";
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => (
   <ul className="">
-    <h1>Ola</h1>
+    <MenuItem label="Quem Somos?" />
   </ul>
 )
