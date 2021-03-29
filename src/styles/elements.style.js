@@ -127,6 +127,11 @@ export default {
     fontSize: ".8rem",
     marginTop: "-15px"
   },
+  span3: {
+    color: "#FF5A00",
+    marginTop: "-15px",
+    textAlign: "center",
+  },
   smiles: {
     position: "absolute",
     width: "80px",
@@ -144,5 +149,18 @@ export default {
   },
   image1: {
     marginLeft: "auto"
+  },
+  image2: {
+    border: "solid 2px #ffff",
+    borderRadius: "100%",
+  },
+  ul: {
+    display: "flex",
+    flexDirection: "column",
+    listStyle: "none",
+    fontSize: "1.5rem",
+  },
+  li: {
+    marginBottom: "5px"
   }
 }
