@@ -4,7 +4,7 @@ import MenuItem from "./menuItem";
 import StyleMain from "../../../styles/main.style";
 
 export default (props) => (
-  <div style={StyleMain}>
+  <div style={StyleMain.main}>
     <i />
     <nav id="menu">
       <ul style={StyleMain.menuUl}>
