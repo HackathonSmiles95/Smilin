@@ -12,7 +12,7 @@ import Dashboard from "../components/pages/Dashboard";
 export default (props) => (
   <Switch>
     <Route path="/home" component={Home} />
-    <Route path="/dashborad" component={Dashboard} />
+    <Route path="/dashboard" component={Dashboard} />
     <Route path="/about" component={About} />
     <Route path="/login" component={Login} />
     <Route path="/Help" component={Help} />
@@ -21,3 +21,4 @@ export default (props) => (
     <Route from="*" component={Home} />
   </Switch>
 );
+

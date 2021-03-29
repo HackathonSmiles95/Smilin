@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 
 import StyleElements from "../../styles/elements.style";
@@ -6,6 +7,8 @@ import StyleRegister from "../../styles/Register.style";
 import Input from "../common/input/input";
 import Button from "../common/button/button";
 import Label from "../common/label/label";
+
+import Smilin from "../common/Smilin/smilin";
 
 export default (props) => (
   <div style={StyleRegister.container}>
@@ -22,7 +25,6 @@ export default (props) => (
     <section style={StyleRegister.formRegistre}>
       <div style={props}>
         <h1 style={StyleRegister.formTitle}>
-          {" "}
           Quero aprender e ficar atualizado(a).{" "}
         </h1>
       </div>
@@ -117,6 +119,7 @@ export default (props) => (
           </div>
         </div>
       </form>
+      <Smilin />
     </section>
   </div>
 );

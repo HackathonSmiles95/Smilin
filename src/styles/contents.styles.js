@@ -37,7 +37,7 @@ export default {
   },
   contentLeft: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     width: "60%",
@@ -72,6 +72,15 @@ export default {
     marginTop: "15px",
     backgroundColor: "#FFFFFF",
   },
+  contentRight3: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "40%",
+    marginTop: "0",
+    backgroundColor: "#FFFFFF",
+  },
   left: {
     display: "flex",
     flexDirection: "column",
@@ -85,7 +94,7 @@ export default {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
   },
   separator2: {
     width: "40%",
@@ -93,18 +102,18 @@ export default {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    backgroundColor: "red"
+    backgroundColor: "red",
   },
   perfil: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-around",
-    marginTop: "10%"
+    marginTop: "10%",
   },
   perfil2: {
     display: "flex",
     flexDirection: "column",
     alignItems: "flex-start",
-    justifyContent: "space-around"
-  }
+    justifyContent: "space-around",
+  },
 };
