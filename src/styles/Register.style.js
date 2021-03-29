@@ -6,6 +6,8 @@ export default {
   },
   container:{
     margin: "0px 0px 0px 0px",
+    float: "left",
+    marginTop: "-12px",
   },
   containerInfor:{
 
@@ -34,4 +36,92 @@ export default {
     textAlign: "center",
     fontSize: "40px",
   },
+  inputCadastro100: {
+    width: '100%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+  },
+  inputCadastro40: {
+    width: '40%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+  },
+  inputCadastro45: {
+    width: '45%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+  },
+  inputCadastro45s: {
+    width: '45%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+    marginLeft: "55px",
+  },
+  inputCadastro55: {
+    width: '55%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+    marginLeft: "25px",
+  },
+  inputCadastro45: {
+    width: '45%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+  },
+  inputCadastro50: {
+    width: '50%',
+    padding: "12px 20px",
+    margin: "8px 0",
+    display: "inline-block",
+    border: "1px solid #ccc",
+    borderRadius: "4px",
+    boxSizing: "border-box",
+    marginLeft: "25px",
+  },
+  registerButton:{
+    backgroundColor: "#FF5A00", /* Green */
+    border: "none",
+    color: "white",
+    padding: "15px 32px",
+    textAlign: "center",
+    textDecoration: "none",
+    display: "inline-block",
+    fontSize: "16px",
+    borderRadius: "10px",
+   
+  },
+  containerButton:{
+    textAlign: "center",
+    marginTop: "50px",
+  },
+  containerCheck:{
+    textAlign: "center",
+    marginTop: "10px",
+    marginBottom: "50px",
+  }
+
 }

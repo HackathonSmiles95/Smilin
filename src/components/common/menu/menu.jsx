@@ -2,8 +2,6 @@
 import React from "react";
 import MenuItem from "./menuItem";
 import StyleMain from "../../../styles/main.style";
-import logo from "../../../assets/logo.png"
-
 
 export default (props) => (
   <div style={StyleMain}>
@@ -14,7 +12,7 @@ export default (props) => (
         <div style={StyleMain.menuContainerLogo}>
           <li style={StyleMain.menuLogoLi}>
             <a href={"#home"} >
-              <img src={logo} alt="Logo" style={StyleMain.logo}/>
+              <img  src="assets/logo.png" alt="Logo" style={StyleMain.logo}/>
             </a>
           </li>
         </div>
