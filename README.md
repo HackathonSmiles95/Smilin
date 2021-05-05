@@ -8,7 +8,7 @@
 
 ## 📋 Sobre o projeto
 
-O <strong>Smiles</strong> é uma plataforma com o objetivo de auxiliar na compra e troca das milhas, com um companheiro que irar te apoira sempre que é Smilin.
+O <strong>Smiles</strong> é uma plataforma com o objetivo de auxiliar na compra e troca das milhas, com um companheiro que irá te apoiar sempre, que é o Smilin.
 
 #### ["Video sobre"](https://youtu.be/hpNpKjsVn38)
 #### ["Smilin"](https://smilin.herokuapp.com/#/)
